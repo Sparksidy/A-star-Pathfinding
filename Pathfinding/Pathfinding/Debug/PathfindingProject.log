@@ -1,0 +1,58 @@
+﻿Build started 10/14/2017 5:15:17 PM.
+     1>Project "C:\Users\siddharth.gupta\Downloads\Pathfinding\Pathfinding\PathfindingProject.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (March 2009)\\INCLUDE" /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"Stdafx.h" /Fp"Debug\PathfindingProject.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /wd4995 /analyze- /errorReport:prompt Source\AStar.cpp
+         AStar.cpp
+     1>c:\users\siddharth.gupta\downloads\pathfinding\pathfinding\source\astar.cpp(163): warning C4305: 'initializing': truncation from 'int' to 'float'
+     1>c:\users\siddharth.gupta\downloads\pathfinding\pathfinding\source\astar.cpp(193): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\siddharth.gupta\downloads\pathfinding\pathfinding\source\astar.cpp(194): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\siddharth.gupta\downloads\pathfinding\pathfinding\source\astar.cpp(195): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\siddharth.gupta\downloads\pathfinding\pathfinding\source\astar.cpp(214): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\siddharth.gupta\downloads\pathfinding\pathfinding\source\astar.cpp(159): warning C4715: 'AStar::FindAStarPath': not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\siddharth.gupta\Downloads\Pathfinding\Pathfinding\Debug\PathfindingProject.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (March 2009)\\LIB\X86" dxerr.lib dxguid.lib d3dx9d.lib d3dx10d.lib d3d9.lib comctl32.lib winmm.lib dsound.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /Debug /PDB:"C:\Users\siddharth.gupta\Downloads\Pathfinding\Pathfinding\Debug\PathfindingProject.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\siddharth.gupta\Downloads\Pathfinding\Pathfinding\Debug\PathfindingProject.lib" /MACHINE:X86 /SAFESEH:NO Debug\MultiAnimation.res
+         Debug\AStar.obj
+         Debug\Blackboard.obj
+         Debug\body.obj
+         Debug\Clock.obj
+         Debug\Enemy.obj
+         Debug\Enemy_student.obj
+         Debug\gameobject.obj
+         Debug\movement.obj
+         Debug\agent.obj
+         Debug\movement_student.obj
+         Debug\PathfindingTests.obj
+         Debug\Random.obj
+         Debug\Stdafx.obj
+         Debug\AllocHierarchy.obj
+         Debug\AnimationInstance.obj
+         Debug\terrain_student.obj
+         Debug\Tiny.obj
+         Debug\DXUT.obj
+         Debug\DXUTcamera.obj
+         Debug\DXUTenum.obj
+         Debug\DXUTgui.obj
+         Debug\DXUTmisc.obj
+         Debug\DXUTres.obj
+         Debug\DXUTsettingsdlg.obj
+         Debug\SDKmisc.obj
+         Debug\SDKsound.obj
+         Debug\SDKwavefile.obj
+         Debug\database.obj
+         Debug\debugdrawing.obj
+         Debug\Map.obj
+         Debug\terrain.obj
+         Debug\world.obj
+         Debug\debuglog.obj
+         Debug\msg.obj
+         Debug\msgroute.obj
+         Debug\statemch.obj
+         Debug\triggersystem.obj
+         Debug\MultiAnimation.obj
+         Debug\MultiAnimationLib.obj
+         PathfindingProject.vcxproj -> C:\Users\siddharth.gupta\Downloads\Pathfinding\Pathfinding\Debug\PathfindingProject.exe
+     1>Done Building Project "C:\Users\siddharth.gupta\Downloads\Pathfinding\Pathfinding\PathfindingProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.68
